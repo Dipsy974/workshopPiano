@@ -36,7 +36,7 @@ function playNote(note){
     }
     
     if(step > 9){
-        unfade(codeDOM);  
+        codeDOM.classList.add("fade"); 
     }
     
 }

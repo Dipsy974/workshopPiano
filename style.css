@@ -28,7 +28,7 @@ body{
 }
 
 .white{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 1px solid black; 
     height : 12.5%; 
     width : 100%; 
@@ -79,11 +79,12 @@ audio{
     height : 100%; 
     position: absolute;
     opacity:0; 
+    transition : opacity 3s; 
 }
 
-#codecache.active{
-    
-    z-index:4; 
+#codecache.fade{
+    opacity : 1; 
+    z-index : 4; 
 }
 
 p{
