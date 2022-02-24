@@ -33,6 +33,7 @@ body{
     height : 12.5%; 
     width : 100%; 
     z-index: 1;
+    display: flex;
 }
 
 
@@ -80,7 +81,7 @@ audio{
     position: absolute;
     opacity:0; 
     transition : opacity 3s; 
- 
+    text-align: center;
 }
 
 #codecache.fade{
@@ -88,12 +89,18 @@ audio{
     z-index : 4; 
 }
 
-p{
-    font-size: 3em;
+#codecache p{
+    transform: rotate(90deg);
 }
 
-img{
-    
-    height: 100%; 
-    
+p{
+    font-size: 1.5em;
+}
+
+.white img{
+    height: 80%;    
+}
+
+#plusbas{
+    align-self: flex-end;
 }
