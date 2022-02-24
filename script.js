@@ -1,7 +1,7 @@
 notes = document.querySelectorAll(".note");
 codeDOM = document.getElementById("codecache"); 
 
-song = ["CD","E","F","CD","E","F","CD","E","F","D"]; 
+song = ["GD","G","GD","F"]; 
 step = 0;
 sequence_initialized = false; 
 
@@ -29,13 +29,13 @@ function playNote(note){
         }
     }
 
-    if(step == 0 && note.dataset.note == "CD"){
+    if(step == 0 && note.dataset.note == "GD"){
         console.log("ui"); 
         sequence_initialized = true;
         step ++; 
     }
     
-    if(step > 9){
+    if(step > 3){
         codeDOM.classList.add("fade"); 
     }
     

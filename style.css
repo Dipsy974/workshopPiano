@@ -9,7 +9,7 @@ body{
 }
 
 .black{
-    background-color: black;
+    background-color: #191919;
     border: 1px solid black; 
     position : absolute; 
     height : 6%; 
@@ -21,10 +21,10 @@ body{
 
 
 .black.used{
-    background-color: rgb(22, 22, 22); 
+    background-color: #191919; 
 }
 .black.active{
-    background-color: #333;
+    background-color: #191919;
 }
 
 .white{
@@ -38,11 +38,11 @@ body{
 
 
 .white.used{
-    background-color: rgb(231, 231, 231); 
+    background-color: rgb(255, 255, 255); 
 }
 
 .white.active{
-    background-color: #CCC;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -80,6 +80,7 @@ audio{
     position: absolute;
     opacity:0; 
     transition : opacity 3s; 
+ 
 }
 
 #codecache.fade{
@@ -89,4 +90,10 @@ audio{
 
 p{
     font-size: 3em;
+}
+
+img{
+    
+    height: 100%; 
+    
 }
