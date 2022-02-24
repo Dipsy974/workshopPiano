@@ -101,6 +101,10 @@ p{
     height: 80%;    
 }
 
+.black img{
+    height : 100%; 
+}
+
 #plusbas{
     align-self: flex-end;
 }
